@@ -8,7 +8,7 @@ conn = psycopg2.connect(
     host = os.getenv("POSTGRES_HOST","localhost"),
     database = os.getenv("POSTGRES_DATABASE","postgres"),
     user = os.getenv("POSTGRES_USER","postgres"),
-    password = os.getenv("POSTGRES_PASSWORD","a78945612301")
+    password = os.getenv("POSTGRES_PASSWORD","postgressql")
 )
 cursor = conn.cursor(cursor_factory = psycopg2.extras.DictCursor)
  
